@@ -1,0 +1,19 @@
+venv creationg 
+python3 -m venv chat_bot_env
+
+venv activation 
+source myenv/bin/activate
+
+pip install django, django-cors-headers, djangorestframework
+
+in project setting add
+"rest_framework",
+"corsheaders", 
+
+
+start new project
+django-admin startproject myproject 
+
+python
+
+
